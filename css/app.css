@@ -1,0 +1,96 @@
+body {
+  font-size: 18px;
+  font-family: Tahoma, Geneva, Verdana, sans-serif;
+  text-align: center;
+
+}
+#wraper{
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+header {
+  margin: 20px;
+}
+header .title img {
+  height: 28px;
+}
+header .title span {
+  font-size: 35px;
+  text-transform: uppercase;
+  line-height: 60px;
+}
+.text {
+  line-height: 60px;
+}
+.block span {
+  color: rgb(206, 206, 206) ;
+  font-size: 0.8em;
+}
+.block {
+  margin-bottom : 30px;
+  width: 33%;
+  display: inline-block;
+}
+.block .photoblock {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.block .title{
+  line-height: 0px;
+}
+
+
+.card{
+    position: absolute; 
+    margin-top : -220px;
+    width:450px;
+    height: 200px;
+    z-index:99; 
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    background-color: white
+}
+.card p{
+  font-size:1.5em;
+  text-align:left;
+    line-height: 0px;
+}
+
+.card table{
+  border: 1;
+  width:60%;
+}
+.card .card_info{
+  margin-left: 10px;
+}
+.first {
+  color: rgb(206, 206, 206) ;
+  font-size: 0.9em;
+  text-align: left;
+} 
+
+.second{
+  font-size: 0.9em;
+  text-align: left;
+}
+.button img{
+    height: 28px;
+    width: 30px;
+}
+.button{
+    margin-left: 400px;
+    margin-top: 10px;
+}
+
+.card .photocard{
+    width: 130px;
+    height: 130px;
+    margin-left:290px;
+    margin-top: -90px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
